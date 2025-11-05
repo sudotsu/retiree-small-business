@@ -1,0 +1,692 @@
+# Upgraded Interactive Quizzes for Retiree Entrepreneurs
+
+Below are five quizzes designed as engaging, low‑pressure lead magnets for retirees considering entrepreneurship. Each quiz includes accessible design notes, clear scoring instructions, opt‑in microcopy, personalized outcomes with specific next steps, instrumentation tags for CRM tracking, alternate headlines and CTA variations, and tailored follow‑up emails. All questions and result descriptions from the original versions have been preserved.
+
+---
+
+## Quiz 1: Are You Wired for Entrepreneurship?
+
+### Accessibility & Print Notes
+
+- **Large‑print PDF available (16–18pt, high contrast).**
+- **Printable reflection sheet included.**
+
+### Introduction
+
+Discover whether your mindset and motivations align with starting your own small business in retirement. Answer a few questions to see how ready you are to take on this exciting new chapter.
+
+### Questions
+
+1. **When you think about starting a small business, which feeling comes up most?**
+
+   - A. Excited — I love the idea of creating something of my own.
+   - B. Cautious — I’m interested but worried about the unknowns.
+   - C. Unsure — I don’t know if I’m cut out for it.
+
+2. **How do you usually handle new challenges?**
+
+   - A. I dive in and learn as I go.
+   - B. I take my time, research and plan before acting.
+   - C. I tend to avoid them or seek help from others.
+
+3. **What motivates you to explore entrepreneurship?**
+
+   - A. Freedom and flexibility to work on my own terms.
+   - B. Supplemental income to enhance retirement.
+   - C. Staying busy and having a sense of purpose.
+
+4. **How do you feel about making decisions with incomplete information?**
+
+   - A. Comfortable — I trust my intuition and can adapt.
+   - B. I prefer to have all the facts before deciding.
+   - C. It makes me nervous, and I often seek advice.
+
+5. **When facing a setback, you tend to…**
+
+   - A. Keep going and look for another way forward.
+   - B. Pause and reassess before moving ahead.
+   - C. Feel discouraged and question my path.
+
+6. **Do you see problems as opportunities?**
+   - A. Yes, they often lead to creative solutions.
+   - B. Sometimes, if I can see a clear benefit.
+   - C. Not usually — problems feel like roadblocks.
+
+### Scoring
+
+Count how many times you selected A, B and C. The letter you chose most often determines your outcome. If there’s a tie, the letter of your last answer breaks the tie.
+
+### Opt‑In
+
+_Enter your email to see your personalized results and get the free 5‑Day Starter Plan. We respect your inbox. Unsubscribe anytime._
+
+### Results
+
+- **You’re Ready to Launch** (mostly A’s) – _Tag: `quiz1_ready_to_launch`_
+
+  You have the enthusiasm and resilience that many successful entrepreneurs share. You’re willing to take calculated risks and learn along the way — a great foundation for starting a business in retirement.
+  **Next Step:** Jump straight to [Day 5 – First Step Forward] and consult the [Checklist – Launch Action Items] to take your first low‑risk step right away.
+  **CTA:** _Go to Day 5 now and turn your readiness into action._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **You’re Cautious but Capable** (mostly B’s) – _Tag: `quiz1_cautious_capable`_
+
+  You prefer thoughtful planning and need confidence before acting. With a structured guide and supportive community, you can turn caution into strength and move forward at your own pace.
+  **Next Step:** Use [Day 3 – Plan Small, Dream Smart] to sketch your one‑page business idea and review the [Checklist – Money Matters] to plan your budget.
+  **CTA:** _Start your business sketch in Day 3 and ensure your finances make sense._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Build‑Your‑Confidence Path** (mostly C’s) – _Tag: `quiz1_build_confidence`_
+
+  You may doubt your entrepreneurial abilities. Start small, build on your strengths and remember that learning and support are available to help you grow.
+  **Next Step:** Begin with [Day 1 – Discover Your Business Spark] to explore your skills and passions, then complete the [Checklist – Personal Readiness] to gain clarity about your motivations.
+  **CTA:** _Rediscover your strengths in Day 1 and build confidence with the Personal Readiness section._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+  Ready to take that first step? Our Retiree Small Business Course guides you from idea to launch — no tech overload, no jargon, just value.
+
+### A/B Testing Options
+
+- **Alternate Headlines:**
+  1. “Is Entrepreneurship Right for You?”
+  2. “Are You Ready to Start a Business?”
+  3. “Does Entrepreneurship Fit Your Retirement Plans?”
+- **Alternate CTA Buttons:**
+  1. “See My Results and Get My Free Plan”
+  2. “Discover My Entrepreneurial Fit Now”
+
+### Email #1 Messages
+
+**Outcome: You’re Ready to Launch (quiz1_ready_to_launch)**
+
+- **Subject Variants:**
+  1. “You’re Ready to Launch Your Business — Let’s Begin!”
+  2. “Congratulations — Your Entrepreneurial Readiness Is Inspiring!”
+  3. “Ready to Turn Your Idea into Action? Here’s How.”
+- **Body:**
+  - Paragraph 1: Congratulations on scoring as _Ready to Launch_! Your responses show you’re enthusiastic and resilient — two powerful traits for new entrepreneurs. Embrace this energy as you embark on your retirement business journey.
+  - Paragraph 2: The next best move is to dive into [Day 5 – First Step Forward] of your 5‑Day Starter Plan. This lesson will help you choose a low‑risk action and start building momentum right away. Pair it with the [Checklist – Launch Action Items] to keep yourself organised.
+  - Paragraph 3: Today’s mini‑task: read through Day 5 and identify one no‑cost action you can take within the next 48 hours. Then, note it on your checklist. You’ll be amazed at how taking one step leads to the next.
+- **Link:** [Day 5 – First Step Forward]
+
+**Outcome: You’re Cautious but Capable (quiz1_cautious_capable)**
+
+- **Subject Variants:**
+  1. “Careful Planner? Let’s Map Out Your Business Dream.”
+  2. “Your Cautious Strength Is an Asset — Here’s What’s Next.”
+  3. “A Thoughtful Start to Your Business Journey.”
+- **Body:**
+  - Paragraph 1: Your quiz results show you’re cautious but capable — a wonderful combination for launching a business thoughtfully. Careful planning can transform nerves into confidence.
+  - Paragraph 2: Start by working on [Day 3 – Plan Small, Dream Smart] of the 5‑Day Starter Plan. It’ll guide you through a simple business sketch so you can put ideas on paper. Review the [Checklist – Money Matters] to see how much you need to invest and how to budget effectively.
+  - Paragraph 3: Today’s mini‑task: write one sentence that sums up your business idea and note two resources you’ll need. Putting thoughts on paper makes them real and helps you plan your next move.
+- **Link:** [Day 3 – Plan Small, Dream Smart]
+
+**Outcome: Build‑Your‑Confidence Path (quiz1_build_confidence)**
+
+- **Subject Variants:**
+  1. “Building Your Confidence Starts Here.”
+  2. “Let’s Boost Your Entrepreneurial Confidence Together.”
+  3. “You’re Just One Spark Away from a Great Idea.”
+- **Body:**
+  - Paragraph 1: Your responses suggest you’re still building confidence about entrepreneurship. That’s completely normal! Many successful business owners started in the same place.
+  - Paragraph 2: Begin with [Day 1 – Discover Your Business Spark] to explore your skills, passions and experiences. Then complete the [Checklist – Personal Readiness] to reflect on what motivates you and who supports you.
+  - Paragraph 3: Today’s mini‑task: list three skills or passions that excite you. Circle the one you’d like to explore further and jot down one person who can encourage you along the way.
+- **Link:** [Day 1 – Discover Your Business Spark]
+
+---
+
+## Quiz 2: What’s Your Perfect Retiree Business Style?
+
+### Accessibility & Print Notes
+
+- **Large‑print PDF available (16–18pt, high contrast).**
+- **Printable reflection sheet included.**
+
+### Introduction
+
+Not all businesses are created equal — and that’s a good thing! This quiz will help you uncover the type of venture that suits your personality and lifestyle, whether it’s consulting, creative work, a local service or an online venture.
+
+### Questions
+
+1. **How do you prefer to use your skills?**
+
+   - A. Advising others using my professional expertise.
+   - B. Making or designing something with my hands.
+   - C. Providing a helpful service in my community.
+   - D. Creating digital products or content from home.
+
+2. **How important is flexibility in your schedule?**
+
+   - A. Very — I want to set my own hours.
+   - B. Somewhat — I can adapt as needed.
+   - C. It’s less important — I’m comfortable with a routine.
+   - D. I prefer to work from home and avoid commuting.
+
+3. **What brings you the most satisfaction?**
+
+   - A. Helping people solve problems or make decisions.
+   - B. Seeing a finished piece of work I’ve crafted.
+   - C. Hearing clients appreciate a job well done.
+   - D. Sharing knowledge or resources online.
+
+4. **What environment do you thrive in?**
+
+   - A. Offices, client meetings or professional settings.
+   - B. A studio, workshop or creative space.
+   - C. Out and about in the community.
+   - D. My own home office or a quiet space.
+
+5. **How do you feel about marketing your business?**
+
+   - A. Comfortable networking and pitching my services.
+   - B. I prefer word of mouth and showcasing my work.
+   - C. I’m happy talking to neighbors and local groups.
+   - D. I’d rather use online channels and social media.
+
+6. **Which statement best fits your goals?**
+   - A. I want to leverage my expertise to earn extra income.
+   - B. I want to turn my hobby into a profitable venture.
+   - C. I want to serve my community and stay active.
+   - D. I want an online business that fits my lifestyle.
+
+### Scoring
+
+Count how many times you selected A, B, C and D. The letter you chose most often determines your outcome. If there’s a tie, use the letter from your last answer to break the tie.
+
+### Opt‑In
+
+_Enter your email to see your personalized results and get the free 5‑Day Starter Plan. We respect your inbox. Unsubscribe anytime._
+
+### Results
+
+- **Consulting Champion** (mostly A’s) – _Tag: `quiz2_consulting_champion`_
+
+  You enjoy sharing your professional knowledge and helping others succeed. A consulting or coaching business lets you pick clients, set your hours and make the most of your experience.
+  **Next Step:** Validate your consulting idea with [Day 2 – Test the Waters], and use the [Checklist – Business Idea Validation] to assess interest and competition.
+  **CTA:** _Explore Day 2 now and see if your expertise is in demand._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Creative Maker** (mostly B’s) – _Tag: `quiz2_creative_maker`_
+
+  You love crafting, building or designing. A creative business — from handmade goods to art commissions — allows you to express yourself and generate income from what you enjoy most.
+  **Next Step:** Tap into [Day 1 – Discover Your Business Spark] to align your passions with business opportunities, then complete the [Checklist – Personal Readiness] to ensure you have the support and motivation you need.
+  **CTA:** _Use Day 1 to match your creativity with a profitable idea._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Service Star** (mostly C’s) – _Tag: `quiz2_service_star`_
+
+  You thrive when helping others directly. A service‑oriented business, such as pet care, gardening or event planning, keeps you active and connected to your community.
+  **Next Step:** Practise describing your idea using [Day 4 – Talk It Out] and read the [Checklist – Marketing & Customers] section to learn how to connect with local clients.
+  **CTA:** _Share your service idea with a friend today and explore customer‑building tips._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Digital Producer** (mostly D’s) – _Tag: `quiz2_digital_producer`_
+
+  You prefer working from home and sharing your knowledge online. Selling digital products, courses or guides could be the perfect fit for your schedule and talents.
+  **Next Step:** Use [Day 2 – Test the Waters] to see if there’s appetite for your digital offering and review the [Checklist – Marketing & Customers] for online promotion strategies.
+  **CTA:** _Validate your digital idea in Day 2 and start planning your online presence._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+  Ready to take that first step? Our Retiree Small Business Course guides you from idea to launch — no tech overload, no jargon, just value.
+
+### A/B Testing Options
+
+- **Alternate Headlines:**
+  1. “Find Your Retiree Business Match.”
+  2. “Which Small Business Fits Your Lifestyle?”
+  3. “Discover Your Ideal Retirement Business.”
+- **Alternate CTA Buttons:**
+  1. “Reveal My Business Style and Get My Free Plan”
+  2. “Show Me My Business Match Now”
+
+### Email #1 Messages
+
+**Outcome: Consulting Champion (quiz2_consulting_champion)**
+
+- **Subject Variants:**
+  1. “Your Expertise Is in Demand — Let’s Make It a Business.”
+  2. “You’re a Consulting Champion — Here’s How to Get Started.”
+  3. “Turn Your Skills into Impactful Consulting.”
+- **Body:**
+  - Paragraph 1: Your quiz results reveal you’re a Consulting Champion! You love sharing professional wisdom and helping others succeed. Consulting or coaching lets you pick your clients and work on your own terms.
+  - Paragraph 2: Begin with [Day 2 – Test the Waters] to confirm there’s interest in your niche. Pair that with the [Checklist – Business Idea Validation] to understand the market and competition.
+  - Paragraph 3: Mini‑task: identify three contacts or organizations that could benefit from your expertise. Write down one question to ask them about their needs.
+- **Link:** [Day 2 – Test the Waters]
+
+**Outcome: Creative Maker (quiz2_creative_maker)**
+
+- **Subject Variants:**
+  1. “Create for Fun and Profit — Your Creative Maker Path.”
+  2. “Turn Your Craft Into a Business.”
+  3. “Your Creativity Deserves an Audience.”
+- **Body:**
+  - Paragraph 1: You’re a Creative Maker at heart. Crafting, designing and building light you up — and those skills can become a delightful income stream.
+  - Paragraph 2: Start with [Day 1 – Discover Your Business Spark] to align your hobbies with business ideas. Use the [Checklist – Personal Readiness] to ensure you’re supported by family and friends.
+  - Paragraph 3: Mini‑task: make a list of three things you love to create and research whether people buy similar items online or locally.
+- **Link:** [Day 1 – Discover Your Business Spark]
+
+**Outcome: Service Star (quiz2_service_star)**
+
+- **Subject Variants:**
+  1. “You’re a Service Star — Let’s Help Your Community.”
+  2. “Ready to Serve? Turn Your Care into a Business.”
+  3. “Your Helping Hands Can Build a Thriving Service Business.”
+- **Body:**
+  - Paragraph 1: Being a Service Star means you excel at helping others. Local services like pet care, gardening or event planning suit your passion for people.
+  - Paragraph 2: Practise talking about your idea using [Day 4 – Talk It Out]. Then review the [Checklist – Marketing & Customers] to learn how to reach local clients and grow through referrals.
+  - Paragraph 3: Mini‑task: call or meet with one friend today to share your service idea and ask for feedback.
+- **Link:** [Day 4 – Talk It Out]
+
+**Outcome: Digital Producer (quiz2_digital_producer)**
+
+- **Subject Variants:**
+  1. “Your Digital Business Starts Here.”
+  2. “Produce Online and Thrive in Retirement.”
+  3. “Turn Your Knowledge into Digital Income.”
+- **Body:**
+  - Paragraph 1: As a Digital Producer, you prefer working from home and sharing knowledge online. Digital courses, guides or templates could be perfect for you.
+  - Paragraph 2: Use [Day 2 – Test the Waters] to gauge demand for your idea. Read the [Checklist – Marketing & Customers] to learn online promotion strategies and build an audience.
+  - Paragraph 3: Mini‑task: think of one digital product idea and write down three topics or tips you’d share in it.
+- **Link:** [Day 2 – Test the Waters]
+
+---
+
+## Quiz 3: Your Small Business Readiness Score
+
+### Accessibility & Print Notes
+
+- **Large‑print PDF available (16–18pt, high contrast).**
+- **Printable reflection sheet included.**
+
+### Introduction
+
+Starting a small business touches on many aspects of your life. This quiz helps you assess your readiness in areas like time, money, support and confidence so you know where you stand.
+
+### Questions
+
+1. **How many hours per week can you realistically dedicate to a business?**
+
+   - A. 10 or more.
+   - B. 5–10.
+   - C. Fewer than 5.
+
+2. **How comfortable are you with investing a small amount of money to get started?**
+
+   - A. Very comfortable — I have funds set aside.
+   - B. Somewhat comfortable — I’m willing to invest a modest amount.
+   - C. Not comfortable — I want to minimize any financial risk.
+
+3. **Do you have a support system (family, friends, mentors) who will encourage your efforts?**
+
+   - A. Yes — they’re fully supportive.
+   - B. Somewhat — a few people support me, others aren’t sure.
+   - C. Not really — I’ll need to build that network.
+
+4. **How confident are you in learning new skills, like basic marketing or technology?**
+
+   - A. Very confident — I enjoy learning new things.
+   - B. Somewhat confident — I may need some guidance.
+   - C. Not confident — I find new tech or marketing intimidating.
+
+5. **When faced with a setback, how do you react?**
+
+   - A. I stay positive and look for solutions.
+   - B. I regroup and plan my next move carefully.
+   - C. I get discouraged and may put things on hold.
+
+6. **What motivates you most about running your own business?**
+
+   - A. Freedom and control over my time.
+   - B. Extra income for travel or hobbies.
+   - C. Staying engaged and purposeful.
+
+7. **Do you have a basic plan or business idea in mind?**
+   - A. Yes — I’m ready to refine it.
+   - B. A general idea, but it needs shaping.
+   - C. Not yet — I need inspiration.
+
+### Scoring
+
+Count how many times you selected A, B and C. The letter you chose most often determines your outcome. In the event of a tie, look at your last answer to break it.
+
+### Opt‑In
+
+_Enter your email to see your personalized results and get the free 5‑Day Starter Plan. We respect your inbox. Unsubscribe anytime._
+
+### Results
+
+- **Ready to Launch** (mostly A’s) – _Tag: `quiz3_ready_to_launch`_
+
+  You have the time, resources and confidence to begin your entrepreneurial journey. With proper guidance, you can move quickly from planning to action.
+  **Next Step:** Head over to [Day 5 – First Step Forward] and work through the [Checklist – Launch Action Items] to select a low‑risk action you can take right away.
+  **CTA:** _Begin Day 5 now and use the checklist to jump into action._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Cautious but Capable** (mostly B’s) – _Tag: `quiz3_cautious_capable`_
+
+  You have some resources but may need clarity and support. By taking each step carefully, you can turn your dream into reality at your own pace.
+  **Next Step:** Complete [Day 3 – Plan Small, Dream Smart] to sketch out your idea and review the [Checklist – Daily/Weekly Time Plan] to schedule dedicated business time each week.
+  **CTA:** _Plan your business on paper and carve out time with Day 3 and the Time Plan._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Preparing to Begin** (mostly C’s) – _Tag: `quiz3_preparing_to_begin`_
+
+  You may not feel ready yet, but that’s okay. Take small steps to build confidence, gather support and explore ideas. You can grow into entrepreneurship with the right encouragement.
+  **Next Step:** Start with [Day 1 – Discover Your Business Spark] to identify potential ideas and work through the [Checklist – Personal Readiness] to explore your motivations and support system.
+  **CTA:** _Discover your spark in Day 1 and strengthen your support network with the Personal Readiness checklist._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+  Ready to take that first step? Our Retiree Small Business Course guides you from idea to launch — no tech overload, no jargon, just value.
+
+### A/B Testing Options
+
+- **Alternate Headlines:**
+  1. “How Ready Are You for a Small Business?”
+  2. “Assess Your Entrepreneurial Readiness.”
+  3. “Find Out If You’re Ready to Start a Business.”
+- **Alternate CTA Buttons:**
+  1. “View My Readiness Results and Get My Free Plan”
+  2. “See My Score and Get Started Now”
+
+### Email #1 Messages
+
+**Outcome: Ready to Launch (quiz3_ready_to_launch)**
+
+- **Subject Variants:**
+  1. “Your Readiness Score Is High — Let’s Launch!”
+  2. “You’re Poised for Action — Next Steps Await.”
+  3. “Ready to Start? Your Business Journey Begins Here.”
+- **Body:**
+  - Paragraph 1: Great news — your Readiness Score shows you have the time, resources and confidence to start your business soon. You’re ready to move from dreaming to doing.
+  - Paragraph 2: Jump into [Day 5 – First Step Forward] of your 5‑Day Starter Plan and work through the [Checklist – Launch Action Items] to choose a low‑risk action. Action is the best way to turn possibility into reality.
+  - Paragraph 3: Mini‑task: write down a single action you can take this week (like contacting a potential client or creating a simple flyer) and commit to doing it by Friday.
+- **Link:** [Day 5 – First Step Forward]
+
+**Outcome: Cautious but Capable (quiz3_cautious_capable)**
+
+- **Subject Variants:**
+  1. “Clarity and Structure Are on Your Side.”
+  2. “Your Score Shows Thoughtful Preparedness.”
+  3. “Let’s Transform Caution into Progress.”
+- **Body:**
+  - Paragraph 1: Your score suggests you have some resources but need clarity and support — that’s a perfectly sensible place to start.
+  - Paragraph 2: Work on [Day 3 – Plan Small, Dream Smart] to map out your idea. Then look at the [Checklist – Daily/Weekly Time Plan] to schedule small, consistent work sessions.
+  - Paragraph 3: Mini‑task: set aside two 30‑minute blocks this week dedicated to fleshing out your business sketch. Put them on your calendar and honour those appointments.
+- **Link:** [Day 3 – Plan Small, Dream Smart]
+
+**Outcome: Preparing to Begin (quiz3_preparing_to_begin)**
+
+- **Subject Variants:**
+  1. “Your Entrepreneurial Journey Starts with Self‑Discovery.”
+  2. “Not Ready Yet? Let’s Build a Solid Foundation.”
+  3. “You’re at the Starting Line — Find Your Spark.”
+- **Body:**
+  - Paragraph 1: Don’t worry if you’re not ready to jump in yet — recognizing that is a powerful first step. Many retirees take time to build confidence and gather ideas.
+  - Paragraph 2: Start with [Day 1 – Discover Your Business Spark] to explore your skills and passions. Review the [Checklist – Personal Readiness] to think about your motivations and support system.
+  - Paragraph 3: Mini‑task: call or email one supportive person today to share that you’re considering a business and ask for their encouragement.
+- **Link:** [Day 1 – Discover Your Business Spark]
+
+---
+
+## Quiz 4: What’s Your Marketing Confidence Level?
+
+### Accessibility & Print Notes
+
+- **Large‑print PDF available (16–18pt, high contrast).**
+- **Printable reflection sheet included.**
+
+### Introduction
+
+Marketing your business is essential, but everyone approaches it differently. This quiz will help you understand how comfortable you are with promoting your services and where you might want to build skills or support.
+
+### Questions
+
+1. **How do you feel about talking about your business in person?**
+
+   - A. Confident and enthusiastic — I love sharing what I do.
+   - B. Neutral — I can talk about it if asked, but I don’t always bring it up.
+   - C. Reluctant — I’d rather let my work speak for itself.
+
+2. **How comfortable are you with using social media to promote a business?**
+
+   - A. Very comfortable — I’m active and enjoy it.
+   - B. Somewhat comfortable — I use it occasionally and could learn more.
+   - C. Uncomfortable — I barely use it or avoid it entirely.
+
+3. **Do you have experience writing posts, emails or ads to attract clients?**
+
+   - A. Yes — I enjoy writing and sharing stories.
+   - B. A little — I’ve written some things but need guidance.
+   - C. No — writing marketing materials feels daunting.
+
+4. **What’s your preferred way to find customers?**
+
+   - A. Networking events and referrals.
+   - B. Advertising online or in local publications.
+   - C. Partnering with community groups or organizations.
+
+5. **How do you react if someone says “no” to your offer?**
+
+   - A. I appreciate the feedback and move on.
+   - B. I take it personally and hesitate to ask again.
+   - C. I avoid putting myself in that situation.
+
+6. **How often do you seek out marketing training or resources?**
+   - A. Often — I’m always learning new techniques.
+   - B. Occasionally — when I need help with something.
+   - C. Rarely — I haven’t thought about it before.
+
+### Scoring
+
+Count how many times you selected A, B and C. The letter you chose most often determines your outcome. Ties are broken by the letter of your final answer.
+
+### Opt‑In
+
+_Enter your email to see your personalized results and get the free 5‑Day Starter Plan. We respect your inbox. Unsubscribe anytime._
+
+### Results
+
+- **Marketing Maven** (mostly A’s) – _Tag: `quiz4_marketing_maven`_
+
+  You’re ready to promote your business with enthusiasm. Harness your natural networking abilities and expand your reach with some strategic tools.
+  **Next Step:** Head to [Day 5 – First Step Forward] and dive into the [Checklist – Marketing & Customers] to organise your outreach and launch activities.
+  **CTA:** _Jump into Day 5 and use the Marketing & Customers checklist to build your audience._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Growing Promoter** (mostly B’s) – _Tag: `quiz4_growing_promoter`_
+
+  You’re on the right track, but there’s room to build confidence and skill. With a few targeted tips and practice, you’ll feel comfortable sharing your message.
+  **Next Step:** Practise your message using [Day 4 – Talk It Out] and read the [Checklist – Marketing & Customers] to discover simple strategies for connecting with potential clients.
+  **CTA:** _Refine your pitch with Day 4 and explore the Marketing & Customers section._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Quiet Connector** (mostly C’s) – _Tag: `quiz4_quiet_connector`_
+
+  You prefer a low‑key approach. Focus on relationship‑based marketing and let your satisfied clients help spread the word while learning simple outreach methods that suit your style.
+  **Next Step:** Use [Day 4 – Talk It Out] to practise explaining your business to a trusted friend and read the [Checklist – Marketing & Customers] for low‑pressure marketing ideas.
+  **CTA:** _Start with Day 4 and discover gentle marketing strategies in the checklist._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+  Ready to take that first step? Our Retiree Small Business Course guides you from idea to launch — no tech overload, no jargon, just value.
+
+### A/B Testing Options
+
+- **Alternate Headlines:**
+  1. “What’s Your Marketing Style?”
+  2. “How Confident Are You in Promoting Your Business?”
+  3. “Find Out Your Marketing Confidence Level.”
+- **Alternate CTA Buttons:**
+  1. “See My Marketing Profile and Get the Free Plan”
+  2. “Reveal My Confidence Level Now”
+
+### Email #1 Messages
+
+**Outcome: Marketing Maven (quiz4_marketing_maven)**
+
+- **Subject Variants:**
+  1. “You’re a Marketing Maven — Let’s Build Your Audience.”
+  2. “Your Marketing Confidence Is Sky‑High!”
+  3. “Ready to Shine? Share Your Business with the World.”
+- **Body:**
+  - Paragraph 1: You scored as a Marketing Maven! Your natural ability to network and share your story will serve you well as you spread the word about your new venture.
+  - Paragraph 2: Jump into [Day 5 – First Step Forward] to focus on launching and use the [Checklist – Marketing & Customers] to plan your outreach. You’ll translate enthusiasm into strategy.
+  - Paragraph 3: Mini‑task: write a short introduction for your business (two to three sentences) and share it with one friend or family member today.
+- **Link:** [Day 5 – First Step Forward]
+
+**Outcome: Growing Promoter (quiz4_growing_promoter)**
+
+- **Subject Variants:**
+  1. “Your Marketing Journey Is Just Beginning.”
+  2. “Ready to Grow Your Promotion Skills?”
+  3. “Let’s Build Your Marketing Confidence Together.”
+- **Body:**
+  - Paragraph 1: Your quiz result shows you’re a Growing Promoter — you’re doing well but still building marketing confidence.
+  - Paragraph 2: Practise speaking about your business using [Day 4 – Talk It Out]. Then consult the [Checklist – Marketing & Customers] for simple outreach ideas that fit your comfort zone.
+  - Paragraph 3: Mini‑task: draft a social media post or short email introducing your business, even if you don’t send it yet. Reading it aloud can build confidence.
+- **Link:** [Day 4 – Talk It Out]
+
+**Outcome: Quiet Connector (quiz4_quiet_connector)**
+
+- **Subject Variants:**
+  1. “Quiet Marketer? Let’s Use Your Strengths.”
+  2. “Subtle Promotion, Powerful Impact.”
+  3. “How to Share Your Business Your Way.”
+- **Body:**
+  - Paragraph 1: You’re a Quiet Connector — you prefer a gentle, relationship‑based approach to marketing. That’s perfectly okay!
+  - Paragraph 2: Practice sharing your business story with a friend using [Day 4 – Talk It Out]. The [Checklist – Marketing & Customers] will help you leverage word‑of‑mouth and referrals without feeling pushy.
+  - Paragraph 3: Mini‑task: call a close friend and explain your business idea in one or two sentences. Ask for feedback and consider asking them to share it with someone else who might benefit.
+- **Link:** [Day 4 – Talk It Out]
+
+---
+
+## Quiz 5: What’s Your Tech Comfort Level?
+
+### Accessibility & Print Notes
+
+- **Large‑print PDF available (16–18pt, high contrast).**
+- **Printable reflection sheet included.**
+
+### Introduction
+
+Technology opens doors for modern businesses, but you don’t need to be an expert to succeed. This quiz helps you gauge your comfort with basic tools so you know where to start and what support you might appreciate.
+
+### Questions
+
+1. **How often do you use a smartphone, tablet or computer?**
+
+   - A. Daily — it’s part of my routine.
+   - B. A few times a week — mainly for email and browsing.
+   - C. Rarely — only when necessary.
+
+2. **When you try a new app or website, you…**
+
+   - A. Figure it out quickly and enjoy exploring.
+   - B. Follow tutorials or ask for help when needed.
+   - C. Feel anxious and avoid it if possible.
+
+3. **How comfortable are you with video calls (Zoom, FaceTime)?**
+
+   - A. Very comfortable — I use them often.
+   - B. Somewhat comfortable — I need reminders to set them up.
+   - C. Uncomfortable — I’ve barely used them or not at all.
+
+4. **Do you have experience with social media platforms?**
+
+   - A. Yes — I’m active on several platforms.
+   - B. A little — I use one or two occasionally.
+   - C. No — I don’t use social media.
+
+5. **How would you describe your typing skills?**
+
+   - A. Fast and confident.
+   - B. Slow but steady.
+   - C. Minimal — I prefer to write by hand or dictate.
+
+6. **If you needed to set up a simple website or online profile, you would…**
+
+   - A. Do it myself with a tutorial.
+   - B. Ask a friend or family member for help.
+   - C. Hire someone else to handle it.
+
+7. **When you encounter a technology problem, you…**
+   - A. Troubleshoot and fix it using online resources.
+   - B. Ask someone you trust to guide you through it.
+   - C. Feel frustrated and stop using the device or app.
+
+### Scoring
+
+Count how many times you selected A, B and C. The letter you chose most often determines your outcome. Ties are broken by your last answer.
+
+### Opt‑In
+
+_Enter your email to see your personalized results and get the free 5‑Day Starter Plan. We respect your inbox. Unsubscribe anytime._
+
+### Results
+
+- **Digital Pioneer** (mostly A’s) – _Tag: `quiz5_digital_pioneer`_
+
+  You’re comfortable with technology and ready to use digital tools to grow your business. Online platforms, marketing and streamlined systems will come naturally to you.
+  **Next Step:** Apply your tech savvy in [Day 5 – First Step Forward] and explore the [Checklist – Marketing & Customers] to leverage online tools for promotion and operations.
+  **CTA:** _Move to Day 5 and use your digital strength to accelerate your launch._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Learning Explorer** (mostly B’s) – _Tag: `quiz5_learning_explorer`_
+
+  You have some experience and are open to learning. With step‑by‑step guidance and practice, you’ll gain confidence using technology to support your business.
+  **Next Step:** Start with [Day 2 – Test the Waters] to validate your idea and refer to the [Checklist – Business Idea Validation] for structured research.
+  **CTA:** _Use Day 2 to test your idea while building your tech skills at a comfortable pace._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+
+- **Hands‑On Helper** (mostly C’s) – _Tag: `quiz5_hands_on_helper`_
+
+  Technology isn’t your favorite tool — and that’s okay. Focus on simple platforms, ask for help when needed and consider outsourcing technical tasks so you can concentrate on the parts you enjoy.
+  **Next Step:** Begin with [Day 1 – Discover Your Business Spark] to build your confidence and check out the [Checklist – Legal & Setup Basics] to understand what support you might need.
+  **CTA:** _Start in Day 1 and review Legal & Setup Basics to see where you can get help._
+  marketing/RBB_Marketing-Hooks_Master_v1.md
+  Ready to take that first step? Our Retiree Small Business Course guides you from idea to launch — no tech overload, no jargon, just value.
+
+### A/B Testing Options
+
+- **Alternate Headlines:**
+  1. “How Tech‑Savvy Are You?”
+  2. “Is Technology Holding You Back?”
+  3. “Discover Your Tech Comfort Score.”
+- **Alternate CTA Buttons:**
+  1. “See My Tech Score and Get My Free Plan”
+  2. “Reveal My Digital Readiness Now”
+
+### Email #1 Messages
+
+**Outcome: Digital Pioneer (quiz5_digital_pioneer)**
+
+- **Subject Variants:**
+  1. “Your Digital Skills Are a Big Advantage!”
+  2. “Tech‑Savvy Entrepreneur? Let’s Put It to Use.”
+  3. “Use Your Digital Prowess to Launch Strong.”
+- **Body:**
+  - Paragraph 1: Your quiz results show you’re a Digital Pioneer. You feel comfortable with technology and can quickly learn new tools — a tremendous advantage for today’s small businesses.
+  - Paragraph 2: Apply your tech confidence by jumping into [Day 5 – First Step Forward] and utilising the [Checklist – Marketing & Customers] to craft an online marketing plan and set up streamlined systems.
+  - Paragraph 3: Mini‑task: choose one online platform (social media, website builder or email service) you’d like to use for your business, sign up and explore its features for 10–15 minutes.
+- **Link:** [Day 5 – First Step Forward]
+
+**Outcome: Learning Explorer (quiz5_learning_explorer)**
+
+- **Subject Variants:**
+  1. “Build Confidence in Your Tech Skills.”
+  2. “Let’s Learn the Tools You Need — Step by Step.”
+  3. “Discover Your Digital Comfort Level and Grow.”
+- **Body:**
+  - Paragraph 1: You’re a Learning Explorer — you have some tech experience and are open to learning more. With patient guidance, you’ll gain the skills needed to support your business.
+  - Paragraph 2: Start with [Day 2 – Test the Waters] to validate your idea and use the [Checklist – Business Idea Validation] to structure your research. This step‑by‑step approach will build your confidence.
+  - Paragraph 3: Mini‑task: watch a short tutorial on creating a simple survey or online form to gather feedback about your business idea.
+- **Link:** [Day 2 – Test the Waters]
+
+**Outcome: Hands‑On Helper (quiz5_hands_on_helper)**
+
+- **Subject Variants:**
+  1. “Technology Isn’t Everything — Focus on What You Love.”
+  2. “Outsource the Tech and Do What You Enjoy.”
+  3. “Your Hands‑On Approach Can Still Thrive.”
+- **Body:**
+  - Paragraph 1: Your results indicate you’re a Hands‑On Helper, meaning you’d rather focus on people and projects than on technology. That’s perfectly fine — technology can support you without taking centre stage.
+  - Paragraph 2: Begin with [Day 1 – Discover Your Business Spark] to focus on your strengths and passions. Explore the [Checklist – Legal & Setup Basics] to understand which parts you can handle and which to delegate or outsource.
+  - Paragraph 3: Mini‑task: list two tasks you’d enjoy doing in your business and one technical task you’d prefer to have help with. Consider reaching out to someone who could assist you.
+- **Link:** [Day 1 – Discover Your Business Spark]
+
+---
