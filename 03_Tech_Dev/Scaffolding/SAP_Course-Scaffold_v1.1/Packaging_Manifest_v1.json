@@ -1,0 +1,267 @@
+{
+  "course": "Second Act Profit System",
+  "version": "v1.0",
+  "generated_utc": "2025-10-05T21:58:43.100369Z",
+  "modules": [
+    {
+      "id": "00",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-00_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-00_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-00_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-00_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-00_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "01",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-01_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-01_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-01_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-01_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-01_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "02",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-02_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-02_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-02_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-02_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-02_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "03",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-03_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-03_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-03_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-03_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-03_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "04",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-04_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-04_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-04_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-04_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-04_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "05",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-05_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-05_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-05_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-05_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-05_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "06",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-06_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-06_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-06_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-06_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-06_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "07",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-07_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-07_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-07_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-07_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-07_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "08",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-08_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-08_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-08_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-08_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-08_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    },
+    {
+      "id": "09",
+      "title": "<CANONICAL_TITLE>",
+      "artifacts": {
+        "lesson_scripts": {
+          "filename": "SAP_Module-09_<Title>_v1.md",
+          "status": "Draft"
+        },
+        "workbook": {
+          "filename": "SAP_Module-09_Workbook_v1.md",
+          "status": "Missing"
+        },
+        "slides": {
+          "filename": "SAP_Module-09_Slides_v1.md",
+          "status": "Missing"
+        },
+        "instructor": {
+          "filename": "SAP_Module-09_Instructor_v1.md",
+          "status": "Missing"
+        },
+        "marketing_hooks": {
+          "filename": "SAP_Module-09_Hooks_v1.md",
+          "status": "Missing"
+        }
+      }
+    }
+  ]
+}

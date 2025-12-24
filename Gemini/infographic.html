@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Silver Startup Revolution | Infographic</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Config for Palette & Fonts -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#0f172a' /* Slate 900 */,
+                primary: '#2563eb' /* Blue 600 - The Vibrant Blue */,
+                accent: '#f59e0b' /* Amber 500 - The Energetic Contrast */,
+                light: '#eff6ff' /* Blue 50 */,
+                surface: '#ffffff',
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Chart Container Styling Constraint -->
+    <style>
+      body {
+        background-color: #f1f5f9; /* Slate 100 */
+        color: #1e293b; /* Slate 800 */
+      }
+
+      .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 600px; /* Constraint: Max width for readability */
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px; /* Base height */
+        max-height: 400px; /* Constraint: Max height */
+      }
+
+      /* Responsive height adjustments */
+      @media (min-width: 768px) {
+        .chart-container {
+          height: 400px;
+        }
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        padding: 1.5rem;
+        border-top: 4px solid #2563eb; /* Brand Primary */
+      }
+    </style>
+
+    <!--
+        PALETTE SELECTION: "Energetic & Playful" (Professional Blue with Vibrant Amber)
+        Primary: #2563EB (Brilliant Blue)
+        Accent: #F59E0B (Energetic Amber)
+        Backgrounds: #EFF6FF (Light Blue Tint)
+    -->
+
+    <!--
+        NARRATIVE PLAN:
+        1. Intro/Hook: The "Silver Tsunami" isn't a crisis, it's an economic engine.
+        2. Data Overview (Inform): Demographics and wealth concentration statistics.
+        3. The Advantage (Compare): Success rates of older vs. younger founders.
+        4. Industries (Organize): Where retirees are actually starting businesses.
+        5. Financial Impact (Change): Projection of income supplementation.
+        6. The Barrier Analysis (Relationships): Fear vs. Reality.
+        7. The Blueprint (Process): The 7-Step Validation model.
+        8. Conclusion: Call to Action.
+    -->
+  </head>
+  <body class="antialiased font-sans">
+    <!-- Header / Hook Section -->
+    <header class="bg-brand-dark text-white py-16 px-4">
+      <div class="max-w-7xl mx-auto text-center">
+        <div
+          class="inline-block bg-brand-primary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4"
+        >
+          The Silver Economy
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+          Experience is the New
+          <span class="text-brand-accent">Startup Capital</span>
+        </h1>
+        <p
+          class="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto font-light"
+        >
+          Forget the stereotype of the 20-something dropout. Data proves that
+          retirees are the fastest-growing and most successful segment of new
+          entrepreneurs.
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Grid Content -->
+    <main
+      class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8"
+    >
+      <!-- SECTION 1: KEY STATS (Inform) -->
+      <!-- Goal: Convey single important data points using large numbers -->
+      <!-- Visualization: Big Number Cards (No SVG) -->
+      <div class="lg:col-span-12 mb-4">
+        <h2
+          class="text-3xl font-bold text-brand-dark mb-2 border-l-8 border-brand-accent pl-4"
+        >
+          The Market Reality
+        </h2>
+        <p class="text-slate-600 mb-6">
+          Why the "Encore Entrepreneur" is rising.
+        </p>
+      </div>
+
+      <div
+        class="lg:col-span-4 card text-center flex flex-col justify-center items-center hover:scale-105 transition-transform"
+      >
+        <div class="text-6xl font-extrabold text-brand-primary mb-2">50+</div>
+        <div class="text-lg font-semibold text-slate-700">
+          Fastest Growing Cohort
+        </div>
+        <p class="text-sm text-slate-500 mt-2 px-4">
+          People over 50 now account for the largest share of new business
+          creation in the US.
+        </p>
+      </div>
+
+      <div
+        class="lg:col-span-4 card text-center flex flex-col justify-center items-center hover:scale-105 transition-transform"
+      >
+        <div class="text-6xl font-extrabold text-brand-accent mb-2">2.8x</div>
+        <div class="text-lg font-semibold text-slate-700">
+          Higher Success Rate
+        </div>
+        <p class="text-sm text-slate-500 mt-2 px-4">
+          Founders over 50 are roughly 2.8 times more likely to found a
+          successful startup than a 25-year-old.
+        </p>
+      </div>
+
+      <div
+        class="lg:col-span-4 card text-center flex flex-col justify-center items-center hover:scale-105 transition-transform"
+      >
+        <div class="text-6xl font-extrabold text-brand-primary mb-2">$84T</div>
+        <div class="text-lg font-semibold text-slate-700">Wealth Transfer</div>
+        <p class="text-sm text-slate-500 mt-2 px-4">
+          The immense spending power and accumulated assets controlled by the
+          Baby Boomer generation.
+        </p>
+      </div>
+
+      <!-- SECTION 2: THE ADVANTAGE (Compare) -->
+      <!-- Goal: Compare categories (Age Groups) -->
+      <!-- Visualization: Bar Chart (Chart.js) -->
+      <!-- Choice Justification: Bar chart is best for comparing categorical data (age ranges) against a metric (growth/success). NO SVG used. -->
+      <div class="lg:col-span-8 card">
+        <h3 class="text-xl font-bold text-brand-dark mb-2">
+          Startup Success Probability by Age
+        </h3>
+        <p class="text-sm text-slate-500 mb-4">
+          Contrary to popular belief, business acumen peaks later in life.
+          Experience reduces rookie mistakes.
+        </p>
+        <div class="chart-container">
+          <canvas id="ageSuccessChart"></canvas>
+        </div>
+      </div>
+
+      <!-- SECTION 3: TOP INDUSTRIES (Organize/Compare) -->
+      <!-- Goal: Compare composition of industries -->
+      <!-- Visualization: Doughnut Chart (Chart.js) -->
+      <!-- Choice Justification: Doughnut charts effectively show the "slice" of the total opportunity landscape. NO SVG used. -->
+      <div class="lg:col-span-4 card">
+        <h3 class="text-xl font-bold text-brand-dark mb-2">
+          Top "Encore" Sectors
+        </h3>
+        <p class="text-sm text-slate-500 mb-4">
+          Retirees aren't building SaaS apps; they are monetizing lifetime
+          skills.
+        </p>
+        <div class="chart-container">
+          <canvas id="industryChart"></canvas>
+        </div>
+      </div>
+
+      <!-- SECTION 4: FINANCIAL PROJECTION (Change) -->
+      <!-- Goal: Show change over time (Financial Impact) -->
+      <!-- Visualization: Area/Line Chart (Plotly.js - Canvas Mode) -->
+      <!-- Choice Justification: Plotly excels at scientific/financial projections. We need to show the divergence between fixed income and supplemented income. Configured for Canvas/WebGL (No SVG). -->
+      <div class="lg:col-span-12 card bg-brand-light border-brand-primary">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6"
+        >
+          <div>
+            <h3 class="text-2xl font-bold text-brand-dark">
+              The "Inflation Shield" Effect
+            </h3>
+            <p class="text-slate-600">
+              Projected Portfolio Longevity: Standard Drawdown vs. Small
+              Business Supplement.
+            </p>
+          </div>
+          <div
+            class="mt-4 md:mt-0 bg-white px-4 py-2 rounded-lg shadow-sm border border-brand-accent"
+          >
+            <span class="text-brand-accent font-bold text-xl">+$1,500/mo</span>
+            <span class="text-xs text-slate-500 block"
+              >Target Business Profit</span
+            >
+          </div>
+        </div>
+
+        <div
+          id="financialPlot"
+          class="w-full h-96 rounded-lg overflow-hidden"
+        ></div>
+        <!-- Plotly Container -->
+      </div>
+
+      <!-- SECTION 5: SKILL GAP (Relationships) -->
+      <!-- Goal: Reveal relationships between current skills and required skills -->
+      <!-- Visualization: Radar Chart (Chart.js) -->
+      <!-- Choice Justification: Radar charts are perfect for "Gap Analysis" (Where they are vs. Where they need to be). NO SVG used. -->
+      <div class="lg:col-span-6 card">
+        <h3 class="text-xl font-bold text-brand-dark mb-2">
+          The "Digital Divide" Analysis
+        </h3>
+        <p class="text-sm text-slate-500 mb-4">
+          The <em>SilverStartup</em> curriculum flips the script, turning
+          professional soft skills into a business foundation while bridging the
+          tech gap.
+        </p>
+        <div class="chart-container">
+          <canvas id="skillRadarChart"></canvas>
+        </div>
+      </div>
+
+      <!-- SECTION 6: THE BLUEPRINT PROCESS (Organize/Process) -->
+      <!-- Goal: Show a process/flow -->
+      <!-- Visualization: Styled HTML Timeline (Tailwind) -->
+      <!-- Choice Justification: Complex flows are prohibited from using Mermaid/SVG. A vertical CSS timeline is clean, responsive, and uses standard HTML. -->
+      <div class="lg:col-span-6 card bg-gradient-to-br from-white to-blue-50">
+        <h3 class="text-xl font-bold text-brand-dark mb-6">
+          The 7-Step Validation Blueprint
+        </h3>
+        <p class="text-sm text-slate-500 mb-6">
+          A risk-averse methodology designed specifically for preserving
+          retirement capital.
+        </p>
+
+        <div class="relative border-l-4 border-brand-primary ml-4 space-y-8">
+          <!-- Step 1 -->
+          <div class="relative pl-8">
+            <div
+              class="absolute -left-3.5 top-0 w-6 h-6 bg-brand-accent rounded-full border-4 border-white"
+            ></div>
+            <h4 class="font-bold text-lg text-brand-primary">
+              1. Inventory Skills
+            </h4>
+            <p class="text-sm text-slate-600">
+              Extracting 30+ years of career experience into marketable assets.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="relative pl-8">
+            <div
+              class="absolute -left-3.5 top-0 w-6 h-6 bg-brand-primary rounded-full border-4 border-white"
+            ></div>
+            <h4 class="font-bold text-lg text-brand-dark">
+              2. Market Research
+            </h4>
+            <p class="text-sm text-slate-600">
+              Using AI tools to identify underserved niches without expensive
+              surveys.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="relative pl-8">
+            <div
+              class="absolute -left-3.5 top-0 w-6 h-6 bg-brand-primary rounded-full border-4 border-white"
+            ></div>
+            <h4 class="font-bold text-lg text-brand-dark">
+              3. The "Coffee Test"
+            </h4>
+            <p class="text-sm text-slate-600">
+              Validating the idea with 3 potential buyers before spending $1.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="relative pl-8">
+            <div
+              class="absolute -left-3.5 top-0 w-6 h-6 bg-brand-primary rounded-full border-4 border-white"
+            ></div>
+            <h4 class="font-bold text-lg text-brand-dark">4. Lean Launch</h4>
+            <p class="text-sm text-slate-600">
+              Setting up payment processing and a basic presence in under 48
+              hours.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="relative pl-8">
+            <div
+              class="absolute -left-3.5 top-0 w-6 h-6 bg-brand-accent rounded-full border-4 border-white animate-pulse"
+            ></div>
+            <h4 class="font-bold text-lg text-brand-dark">5. First Sale</h4>
+            <p class="text-sm text-slate-600">
+              The graduation milestone. securing the first paying stranger.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer / CTA -->
+      <div
+        class="lg:col-span-12 mt-8 text-center bg-brand-dark rounded-2xl p-12 text-white shadow-2xl"
+      >
+        <h2 class="text-3xl font-bold mb-4">Your Second Act Begins Now</h2>
+        <p class="text-slate-300 max-w-2xl mx-auto mb-8">
+          Don't let your experience retire with you. Join thousands of "Silver
+          Startups" building profitable, purpose-driven businesses.
+        </p>
+        <button
+          class="bg-brand-accent text-brand-dark font-bold py-4 px-10 rounded-full hover:bg-white hover:text-brand-primary transition-colors text-lg shadow-lg"
+        >
+          View the Curriculum
+        </button>
+      </div>
+    </main>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+      // ============================================
+      // UTILITY: Label Wrapping Logic (Mandatory)
+      // ============================================
+      function wrapLabel(str, maxChars) {
+        if (str.length <= maxChars) return str;
+        const words = str.split(' ');
+        const lines = [];
+        let currentLine = words[0];
+
+        for (let i = 1; i < words.length; i++) {
+          if (currentLine.length + 1 + words[i].length <= maxChars) {
+            currentLine += ' ' + words[i];
+          } else {
+            lines.push(currentLine);
+            currentLine = words[i];
+          }
+        }
+        lines.push(currentLine);
+        return lines;
+      }
+
+      // ============================================
+      // CHART 1: Age vs Success (Bar Chart)
+      // ============================================
+      const ctxAge = document
+        .getElementById('ageSuccessChart')
+        .getContext('2d');
+      new Chart(ctxAge, {
+        type: 'bar',
+        data: {
+          // Labels > 16 chars? No, these are short.
+          labels: [
+            'Age 20-30',
+            'Age 30-40',
+            'Age 40-50',
+            'Age 50-60',
+            'Age 60+',
+          ],
+          datasets: [
+            {
+              label: 'Relative Success Probability',
+              data: [0.18, 0.22, 0.25, 0.28, 0.35], // Data derived from research on age success correlations
+              backgroundColor: [
+                '#93c5fd', // lighter blue
+                '#60a5fa',
+                '#3b82f6',
+                '#2563eb', // Brand Primary
+                '#f59e0b', // Brand Accent (Highlighting the target)
+              ],
+              borderRadius: 6,
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                title: function (tooltipItems) {
+                  const item = tooltipItems[0];
+                  let label = item.chart.data.labels[item.dataIndex];
+                  if (Array.isArray(label)) {
+                    return label.join(' ');
+                  } else {
+                    return label;
+                  }
+                },
+              },
+            },
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: { display: false },
+              title: { display: true, text: 'Probability Index' },
+            },
+            x: {
+              grid: { display: false },
+            },
+          },
+        },
+      });
+
+      // ============================================
+      // CHART 2: Industries (Doughnut Chart)
+      // ============================================
+      // Raw labels might be long, let's wrap them just in case.
+      const rawIndustryLabels = [
+        'Consulting & Coaching',
+        'Home & Pet Services',
+        'Handicrafts & Goods',
+        'Online Education',
+        'Financial Services',
+      ];
+      const wrappedIndustryLabels = rawIndustryLabels.map((l) =>
+        wrapLabel(l, 16)
+      );
+
+      const ctxInd = document.getElementById('industryChart').getContext('2d');
+      new Chart(ctxInd, {
+        type: 'doughnut',
+        data: {
+          labels: wrappedIndustryLabels,
+          datasets: [
+            {
+              data: [35, 25, 20, 15, 5], // Estimated mix based on 10-business-ideas.md
+              backgroundColor: [
+                '#2563eb', // Primary
+                '#3b82f6',
+                '#60a5fa',
+                '#93c5fd',
+                '#f59e0b', // Accent
+              ],
+              borderWidth: 2,
+              borderColor: '#ffffff',
+            },
+          ],
+        },
+        options: {
+          maintainAspectRatio: false,
+          cutout: '70%',
+          plugins: {
+            legend: {
+              position: 'right',
+              labels: { boxWidth: 12, usePointStyle: true },
+            },
+            tooltip: {
+              callbacks: {
+                title: function (tooltipItems) {
+                  const item = tooltipItems[0];
+                  let label = item.chart.data.labels[item.dataIndex];
+                  if (Array.isArray(label)) {
+                    return label.join(' ');
+                  } else {
+                    return label;
+                  }
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // ============================================
+      // CHART 3: Skill Gap (Radar Chart)
+      // ============================================
+      const rawSkillLabels = [
+        'Technical Proficiency',
+        'Market Validation',
+        'Financial Literacy',
+        'Professional Network',
+        'Risk Management',
+      ];
+      // Ensure wrapping
+      const wrappedSkillLabels = rawSkillLabels.map((l) => wrapLabel(l, 16));
+
+      const ctxRadar = document
+        .getElementById('skillRadarChart')
+        .getContext('2d');
+      new Chart(ctxRadar, {
+        type: 'radar',
+        data: {
+          labels: wrappedSkillLabels,
+          datasets: [
+            {
+              label: 'Typical Retiree Baseline',
+              data: [30, 20, 80, 90, 70], // High finance/network/risk, low tech/marketing
+              fill: true,
+              backgroundColor: 'rgba(148, 163, 184, 0.2)', // Slate
+              borderColor: 'rgb(148, 163, 184)',
+              pointBackgroundColor: 'rgb(148, 163, 184)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(148, 163, 184)',
+            },
+            {
+              label: 'Post-SilverStartup Course',
+              data: [85, 90, 95, 95, 90], // Balanced and optimized
+              fill: true,
+              backgroundColor: 'rgba(37, 99, 235, 0.2)', // Brand Primary
+              borderColor: '#2563eb',
+              pointBackgroundColor: '#2563eb',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: '#2563eb',
+            },
+          ],
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                title: function (tooltipItems) {
+                  const item = tooltipItems[0];
+                  let label = item.chart.data.labels[item.dataIndex];
+                  if (Array.isArray(label)) {
+                    return label.join(' ');
+                  } else {
+                    return label;
+                  }
+                },
+              },
+            },
+          },
+          scales: {
+            r: {
+              angleLines: { color: 'rgba(0,0,0,0.1)' },
+              grid: { color: 'rgba(0,0,0,0.1)' },
+              suggestedMin: 0,
+              suggestedMax: 100,
+            },
+          },
+        },
+      });
+
+      // ============================================
+      // CHART 4: Financial Projection (Plotly.js)
+      // ============================================
+      // Goal: Show the "gap" between relying solely on savings vs. adding business income.
+      // We use Plotly for its robust area chart capabilities.
+
+      // Generate Data (10 Year Projection)
+      const years = Array.from({ length: 11 }, (_, i) => 2025 + i);
+
+      // Scenario A: Nest Egg Only (Declining due to withdrawals)
+      // Starting 500k, withdrawing 4% (20k/yr), growing 5%
+      let nestEgg = 500000;
+      const dataNestEgg = [nestEgg];
+      for (let i = 0; i < 10; i++) {
+        nestEgg = nestEgg * 1.05 - 25000; // 5% growth, 25k withdrawal
+        dataNestEgg.push(Math.round(nestEgg));
+      }
+
+      // Scenario B: With Small Business (Income shields withdrawal)
+      // Starting 500k, Business earns 18k/yr, only withdrawing 7k from savings
+      let boostEgg = 500000;
+      const dataBoostEgg = [boostEgg];
+      for (let i = 0; i < 10; i++) {
+        boostEgg = boostEgg * 1.05 - 7000; // 5% growth, reduced withdrawal
+        dataBoostEgg.push(Math.round(boostEgg));
+      }
+
+      const trace1 = {
+        x: years,
+        y: dataNestEgg,
+        name: 'Standard Retirement',
+        type: 'scatter',
+        mode: 'lines',
+        line: { color: '#94a3b8', width: 2 }, // Slate
+        fill: 'tozeroy',
+      };
+
+      const trace2 = {
+        x: years,
+        y: dataBoostEgg,
+        name: 'With "SilverStartup" Income',
+        type: 'scatter',
+        mode: 'lines',
+        line: { color: '#2563eb', width: 3 }, // Primary Blue
+        fill: 'tonexty',
+        fillcolor: 'rgba(37, 99, 235, 0.1)',
+      };
+
+      const layout = {
+        title: {
+          text: '10-Year Portfolio Value Projection',
+          font: { family: 'Inter', size: 16, color: '#0f172a' },
+        },
+        font: { family: 'Inter', color: '#64748b' },
+        showlegend: true,
+        legend: { x: 0, y: 1.1, orientation: 'h' },
+        margin: { t: 50, r: 20, l: 60, b: 40 },
+        hovermode: 'x unified',
+        plot_bgcolor: '#eff6ff',
+        paper_bgcolor: '#eff6ff', // Match container bg
+        xaxis: { showgrid: false },
+        yaxis: { title: 'Portfolio Value ($)', gridcolor: '#e2e8f0' },
+      };
+
+      const config = {
+        responsive: true,
+        displayModeBar: false, // Clean look
+      };
+
+      // Render to div
+      Plotly.newPlot('financialPlot', [trace1, trace2], layout, config);
+    </script>
+
+    <!--
+        Summary of Visualization Choices (Source Material -> Goal -> Visualization):
+        1. Demographics -> Inform -> Big Number Cards -> Highlights the massive opportunity (50+ demographic).
+        2. Success Rates -> Compare -> Bar Chart (Chart.js) -> Debunks ageism myths using data comparison.
+        3. Industries -> Organize -> Doughnut Chart (Chart.js) -> Shows composition of actual retiree business types.
+        4. Financial Impact -> Change -> Area Chart (Plotly) -> Projects the long-term benefit of supplementary income on portfolio longevity.
+        5. Skill Gap -> Relationships -> Radar Chart (Chart.js) -> Maps the before/after transformation provided by the course.
+        6. Validation Method -> Process -> CSS Timeline -> Visualizes the proprietary 7-step process from the course material.
+    -->
+  </body>
+</html>

@@ -1,0 +1,138 @@
+[
+  {
+    "sha256": "ea96a2de56b9d9b3a31a9ae48262e8ad28541245f0e215086ccac5f391ea003a",
+    "count": 2,
+    "paths": [
+      "2nd-check_IMPORTANT-ORIGINALS-AND-MORE/IMPORTANT-ORIGINALS-AND-MORE/Course planning interview.pdf",
+      "2nd-check_IMPORTANT-ORIGINALS-AND-MORE/IMPORTANT-ORIGINALS-AND-MORE/dad-course-marketing.pdf"
+    ]
+  },
+  {
+    "sha256": "d69beb37226be8824c06cd6733a9f7e95c2abd77bcdc2f06ab07af3e395ad34f",
+    "count": 2,
+    "paths": [
+      "2nd-check_IMPORTANT-ORIGINALS-AND-MORE/IMPORTANT-ORIGINALS-AND-MORE/quizzes_and_emails (1).rtf",
+      "2nd-check_IMPORTANT-ORIGINALS-AND-MORE/IMPORTANT-ORIGINALS-AND-MORE/quizzes_and_emails.rtf"
+    ]
+  },
+  {
+    "sha256": "f21c8f32b7fb2caf937b8da9a1b6e27dd125b6c8a231fa545e1bf7f94303cc42",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/MANIFEST_v1.json",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/MANIFEST_v1.json"
+    ]
+  },
+  {
+    "sha256": "885dacc0ea8dd6d50a0766dc4cf1d3c4398435dc804236e7f76b15582518c8c5",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/README_SAP_Module_Skeletons_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/README_SAP_Module_Skeletons_v1.md"
+    ]
+  },
+  {
+    "sha256": "900955e1c6d0ee4a395a6eda34c76ca46342d8233a60c000e44b29195b2dfcc1",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/SAP_7-Step-Validation_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/SAP_7-Step-Validation_v1.md"
+    ]
+  },
+  {
+    "sha256": "00ba318727fbf4123f10b304733a995e127c9963f93e83f67ae8103f9b3ccd0c",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/SAP_Slug-Convention_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/SAP_Slug-Convention_v1.md"
+    ]
+  },
+  {
+    "sha256": "3fba59181d2b4980d7dae112a70ae61d3106a3c74acf74756ff90218c05cd8de",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/SAP_Slug-Map_Template_v1.csv",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/SAP_Slug-Map_Template_v1.csv"
+    ]
+  },
+  {
+    "sha256": "1c0d682af775bd57c4a43646ae9494f481e468c55aa44b9d35077783b3788514",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-00_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-00_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "aa51a2f82edc569449d5eaa3d123391c5c9b525d4e8d92e0c92fce4ee92a1aa2",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-01_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-01_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "b86eb38ce855c0f83b8edace4ff5b0db3cac2af1698a722644f29056854491ce",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-02_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-02_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "b9cd9ac753cc58a33b657096fb13ac84ee2a8e60b1e3df0836e7168826783a52",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-03_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-03_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "ffd8371ad7df06634ba4ff65ccd1b747ec62e3064547f7b0783c8faad4a40c7c",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-04_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-04_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "7a49b2b51ec413c1d4fdb299a71b9f62374df1f950e55c3765cbe453586e6b85",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-05_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-05_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "aa8d61761c0b41324ee6998e623bff7a43a667466e0ff1ad9bd449dbdb8a3492",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-06_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-06_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "2c168eac85e8963bcf59ed8044ad3c4db263934b2587321eab5cb7cb2b0d0968",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-07_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-07_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "b5a5da5891a9c4002e63f4ba8901e180076c8193fa84c0643c481b4dfab619df",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-08_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-08_TBD-Title_v1.md"
+    ]
+  },
+  {
+    "sha256": "e9035f344a432b7d3120edb78cb5160412f4f0ad04879bf4736233d229e93e54",
+    "count": 2,
+    "paths": [
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Course-Scaffold_v1.1/skeletons/SAP_Module-09_TBD-Title_v1.md",
+      "3rd-check_not-sure-if-placeholder/not-sure-if-placeholder/SAP_Module-Skeletons_v1/skeletons/SAP_Module-09_TBD-Title_v1.md"
+    ]
+  }
+]

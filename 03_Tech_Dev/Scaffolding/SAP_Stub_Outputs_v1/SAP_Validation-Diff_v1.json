@@ -1,0 +1,95 @@
+{
+  "error": "Missing source files: /Packaging_Manifest_v1.json, /Master-Index_Running_v1.md, /Module-Map_Authoritative_v1.md",
+  "modules": {
+    "00": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "01": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "02": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "03": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "04": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "05": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "06": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "07": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "08": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    },
+    "09": {
+      "title": null,
+      "lesson_scripts": "Missing",
+      "workbook": "Missing",
+      "slides": "Missing",
+      "instructor_guide": "Missing",
+      "marketing_hooks": "Missing",
+      "status": "Missing"
+    }
+  }
+}
