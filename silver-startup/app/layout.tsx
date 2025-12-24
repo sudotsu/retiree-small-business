@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning> {/* Needed for prefers-color-scheme media query - SSR defaults to light, client hydrates with user's system preference */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

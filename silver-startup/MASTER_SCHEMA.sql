@@ -228,9 +228,20 @@ create policy "Users can create own attempts"
   with check (auth.uid() = user_id);
 
 -- Certificate policies
+-- Note: Certificates are issued by admin/system only upon course completion
 create policy "Users can view own certificates"
   on public.certificates for select
   using (auth.uid() = user_id);
+
+create policy "Admins can create certificates"
+  on public.certificates for insert
+  with check (
+    exists (
+      select 1 from public.user_profiles
+      where user_profiles.id = auth.uid()
+      and user_profiles.role = 'admin'
+    )
+  );
 
 -- Admin policies (Gate 5)
 create policy "Admins have full access to courses"
@@ -264,7 +275,7 @@ create policy "Admins have full access to lessons"
   );
 
 -- 6. AUTOMATION (User profile auto-creation)
-create or replace function public.handle_new_user() 
+create or replace function public.handle_new_user()
 returns trigger as $$
 begin
   insert into public.user_profiles (id, email, full_name)
@@ -309,8 +320,8 @@ create trigger set_updated_at before update on public.quizzes
 -- 8. SEED DATA (Courses + Modules + Lessons)
 
 -- Courses
-INSERT INTO public.courses (id, title, description, image_url, track_type, price_cents, is_published) 
-VALUES 
+INSERT INTO public.courses (id, title, description, image_url, track_type, price_cents, is_published)
+VALUES
 (
   '00000000-0000-0000-0000-000000000001',
   'Retiree Business Blueprint: Mastery Track',

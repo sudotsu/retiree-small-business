@@ -2,7 +2,7 @@
 
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
-import type { Course, CourseWithModules, Lesson, Module } from './types';
+import type { Course, CourseProgress, CourseWithModules, Lesson, Module } from './types';
 
 /**
  * Creates a Supabase client configured for Next.js Server Components
@@ -240,7 +240,7 @@ export async function markLessonComplete(lessonId: string): Promise<boolean> {
  * @param courseId - UUID of the course
  * @returns Object with completion stats, or null on error
  */
-export async function getCourseProgress(userId: string, courseId: string) {
+export async function getCourseProgress(userId: string, courseId: string): Promise<CourseProgress | null> {
   const supabase = await createClient();
 
   // Get all lessons in the course
@@ -285,9 +285,10 @@ export async function getCourseProgress(userId: string, courseId: string) {
     : 0;
 
   return {
-    courseId,
-    totalLessons,
-    completedLessons,
-    completionPercent,
+    course_id: courseId,
+    total_lessons: totalLessons,
+    completed_lessons: completedLessons,
+    completion_percent: completionPercent,
+    last_accessed: null,
   };
 }
