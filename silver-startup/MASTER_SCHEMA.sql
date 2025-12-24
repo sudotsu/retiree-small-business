@@ -275,16 +275,14 @@ create policy "Admins have full access to lessons"
   );
 
 -- 6. AUTOMATION (User profile auto-creation)
+-- Note: No exception handler - if profile creation fails, signup should fail to maintain data consistency
+-- RLS policies depend on user_profiles existing, so orphaned auth.users records would cause access issues
 create or replace function public.handle_new_user()
 returns trigger as $$
 begin
   insert into public.user_profiles (id, email, full_name)
   values (new.id, new.email, new.raw_user_meta_data->>'full_name');
   return new;
-exception
-  when others then
-    raise warning 'Failed to create user profile: %', sqlerrm;
-    return new;
 end;
 $$ language plpgsql security definer;
 

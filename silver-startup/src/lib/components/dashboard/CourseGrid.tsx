@@ -55,7 +55,11 @@ function CourseCard({ course }: CourseCardProps) {
     },
   };
 
-  const colors = trackColors[course.track_type as keyof typeof trackColors];
+  const trackType: keyof typeof trackColors =
+    course.track_type === 'mastery' || course.track_type === 'essentials'
+      ? course.track_type
+      : 'essentials';
+  const colors = trackColors[trackType];
 
   return (
     <article

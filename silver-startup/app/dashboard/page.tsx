@@ -49,7 +49,7 @@ export default async function DashboardPage() {
       {/* Footer */}
       <footer className="border-t border-slate-200 mt-20 py-8">
         <div className="max-w-7xl mx-auto px-6 text-center text-sm text-slate-500">
-          <p>© 2024 Silver Startup. Built for retirees, by retirees.</p>
+          <p>© 2025 Silver Startup. Built for retirees, by retirees.</p>
         </div>
       </footer>
     </div>

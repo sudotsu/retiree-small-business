@@ -24,7 +24,7 @@ async function createClient() {
             cookiesToSet.forEach(({ name, value, options }) =>
               cookieStore.set(name, value, options)
             );
-          } catch (error) {
+          } catch (_error) {
             // Cookie setting can fail in Server Components
             // This is expected and can be safely ignored
           }
@@ -279,7 +279,7 @@ export async function getCourseProgress(userId: string, courseId: string): Promi
   }
 
   const totalLessons = lessons.length;
-  const completedLessons = progress.length;
+  const completedLessons = Array.isArray(progress) ? progress.length : 0;
   const completionPercent = totalLessons > 0
     ? Math.round((completedLessons / totalLessons) * 100)
     : 0;
