@@ -167,13 +167,6 @@
 
 Copy these 4 files to your `silver-startup` directory:
 
-```bash
-# Copy to project
-cp src_lib_types.ts                           → src/lib/types.ts
-cp src_lib_actions.ts                         → src/lib/actions.ts
-cp src_components_dashboard_CourseGrid.tsx    → src/components/dashboard/CourseGrid.tsx
-cp src_app_dashboard_page.tsx                 → src/app/dashboard/page.tsx
-```
 
 ### 3. Dependencies
 
