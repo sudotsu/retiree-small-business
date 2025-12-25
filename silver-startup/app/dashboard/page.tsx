@@ -1,5 +1,5 @@
+import CourseGrid from '@/components/dashboard/CourseGrid';
 import { getCourses } from '@/lib/actions';
-import CourseGrid from '@/lib/components/dashboard/CourseGrid';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
