@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  /* Premium Palette */
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --primary: #1e3a8a;
+  --primary-light: #3b82f6;
+  --silver-100: #f1f5f9;
+  --silver-200: #e2e8f0;
+  --track-mastery: #7c3aed;
+  --track-essentials: #0ea5e9;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-silver-100: var(--silver-100);
+  --color-silver-200: var(--silver-200);
+  --color-track-mastery: var(--track-mastery);
+  --color-track-essentials: var(--track-essentials);
+}
+
+html {
+  font-size: 112.5%; /* Base 18px for better senior readability */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.6; /* Increased for better legibility */
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.animate-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
