@@ -6,11 +6,11 @@
   --background: #f8fafc;
   --foreground: #0f172a;
   --primary: #1e3a8a;
-  --primary-light: #3b82f6;
+  --primary-light: #2563eb; /* Blue 600 - Passed AA */
   --silver-100: #f1f5f9;
   --silver-200: #e2e8f0;
-  --track-mastery: #7c3aed;
-  --track-essentials: #0ea5e9;
+  --track-mastery: #6d28d9; /* Violet 700 - Passed AA */
+  --track-essentials: #0369a1; /* Sky 700 - Passed AA */
 }
 
 @theme {

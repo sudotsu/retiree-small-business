@@ -103,8 +103,8 @@ function CourseCard({ course }: CourseCardProps) {
 
           <Link
             href={`/courses/${course.id}`}
-            className="flex items-center justify-center gap-3 bg-primary text-white px-8 py-4 rounded-3xl shadow-2xl shadow-primary/20 hover:bg-primary-light hover:scale-105 active:scale-95 transition-all text-base font-black"
-            aria-label={`Start ${course.title}`}
+            className="flex items-center justify-center gap-3 bg-primary text-white px-8 py-4 rounded-3xl shadow-2xl shadow-primary/20 hover:bg-primary-light hover:scale-105 active:scale-95 transition-all text-base font-black text-center"
+            aria-label={`Start Course: ${course.title}`}
           >
             Start Course
             <ArrowRight className="w-5 h-5 border-l border-white/20 pl-2" />

@@ -33,7 +33,7 @@ export default async function CourseIntroPage({ params }: { params: Promise<{ co
           </div>
           <div className="absolute bottom-10 left-10 right-10 flex justify-between items-end">
              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-3xl">
-                <p className="text-white font-black text-sm uppercase tracking-widest mb-1 opacity-60">Verified Curriculum</p>
+                <p className="text-white font-black text-sm uppercase tracking-widest mb-1">Verified Curriculum</p>
                 <p className="text-white text-2xl font-black">2025 Edition</p>
              </div>
           </div>
@@ -49,7 +49,7 @@ export default async function CourseIntroPage({ params }: { params: Promise<{ co
           ].map((stat, i) => (
             <div key={i} className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm flex flex-col items-center text-center group hover:bg-primary transition-all duration-500">
               <div className="text-primary-light mb-4 group-hover:text-white transition-colors">{stat.icon}</div>
-              <span className="text-xs uppercase font-black text-slate-400 tracking-tighter mb-2 group-hover:text-white/60 transition-colors">{stat.label}</span>
+              <span className="text-xs uppercase font-black text-slate-600 tracking-tighter mb-2 group-hover:text-white transition-colors">{stat.label}</span>
               <span className="text-xl font-black text-primary group-hover:text-white transition-colors">{stat.val}</span>
             </div>
           ))}

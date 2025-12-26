@@ -9,7 +9,7 @@ export default function VideoPlayer({ title }: { title: string }) {
           <div className="w-20 h-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform cursor-pointer">
             <Play className="w-8 h-8 text-white fill-white ml-1" />
           </div>
-          <p className="text-white/40 text-sm font-medium tracking-widest uppercase">Video Placeholder</p>
+          <p className="text-white/70 text-sm font-medium tracking-widest uppercase">Video Placeholder</p>
         </div>
       </div>
 
