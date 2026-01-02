@@ -1,85 +1,165 @@
 import CourseGrid from '@/components/dashboard/CourseGrid';
+import Sidebar from '@/components/dashboard/Sidebar';
 import { getCourses } from '@/lib/actions';
-import { BookOpen, Rocket, UserCircle } from 'lucide-react';
+import {
+    Award,
+    BookOpen,
+    HelpCircle,
+    Rocket,
+    Target,
+    UserCircle
+} from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Learning Dashboard',
-  description: 'Access your retiree business blueprint courses.',
+  title: 'Academy Dashboard | Silver Startup',
+  description: 'Access your retiree business blueprint training.',
 };
 
 export default async function DashboardPage() {
   const courses = await getCourses();
 
   return (
-    <div className="min-h-screen bg-silver-100">
-      {/* Premium Navigation */}
-      <nav className="glass sticky top-0 z-50 px-6 py-4">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="bg-primary p-1.5 rounded-lg">
-              <Rocket className="w-5 h-5 text-white" />
+    <div className="min-h-screen bg-silver-100 font-sans selection:bg-gold/20">
+      {/* Gold Edition Navigation */}
+      <nav className="glass sticky top-0 z-50 px-6 h-16 flex items-center shadow-xs">
+        <div className="max-w-7xl w-full mx-auto flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <div className="bg-primary p-2 rounded-xl shadow-lg ring-1 ring-white/20">
+              <Rocket className="w-5 h-5 text-gold-light" />
             </div>
-            <h2 className="text-xl font-bold tracking-tight text-primary">
-              Silver<span className="text-primary-light">Startup</span>
+            <h2 className="text-xl font-black tracking-tighter text-primary uppercase">
+              Silver<span className="text-gold">Startup</span>
+              <span className="ml-2 px-1.5 py-0.5 bg-gold/10 text-gold text-[10px] rounded border border-gold/20 tracking-normal">GOLD EDITION</span>
             </h2>
           </div>
 
-          <button className="flex items-center gap-2 text-primary font-medium hover:opacity-80 transition-opacity">
-            <UserCircle className="w-6 h-6" />
-            <span className="hidden sm:inline">My Account</span>
-          </button>
+          <div className="flex items-center gap-6">
+            <button className="hidden md:flex items-center gap-2 text-primary/60 hover:text-primary transition-colors font-bold text-xs uppercase tracking-widest">
+              <HelpCircle className="w-4 h-4" />
+              Support
+            </button>
+            <button className="flex items-center gap-3 pl-6 border-l border-silver-200">
+              <div className="text-right hidden sm:block">
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">Student</p>
+                <p className="text-sm font-bold text-primary leading-none">James Wilson</p>
+              </div>
+              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center border-4 border-white shadow-md">
+                <UserCircle className="w-6 h-6 text-gold-light" />
+              </div>
+            </button>
+          </div>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <div className="bg-primary text-white py-16 px-6 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-primary-light/10 to-transparent" />
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="max-w-2xl animate-in">
-            <h1 className="text-4xl md:text-5xl font-black mb-4 leading-tight">
-              Welcome back to your <br />
-              <span className="text-primary-light italic">Second Act</span>
-            </h1>
-            <p className="text-silver-200 text-lg md:text-xl leading-relaxed opacity-90">
-              Your journey to building a sustainable, profitable service business
-              continues here. Browse your courses or resume your last lesson below.
-            </p>
+      <div className="max-w-7xl mx-auto flex min-h-[calc(100vh-64px)]">
+        {/* Dynamic Sidebar */}
+        <Sidebar />
+
+        {/* Main Command Center */}
+        <main className="flex-1 p-6 lg:p-10 animate-in">
+          {/* Status Bar */}
+          <div className="flex flex-wrap gap-4 mb-10">
+            <div className="flex-1 min-w-70 bg-white p-6 rounded-3xl border border-silver-200 shadow-sm flex items-center gap-5">
+              <div className="w-12 h-12 bg-gold/10 rounded-2xl flex items-center justify-center">
+                <Award className="w-6 h-6 text-gold" />
+              </div>
+              <div>
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Current Milestone</p>
+                <h3 className="text-lg font-bold text-primary leading-tight">Week 1: Bank-Ready Business Plan</h3>
+                <p className="text-[10px] text-gold font-bold mt-1 uppercase tracking-tight">Free Access Active</p>
+              </div>
+            </div>
+            <div className="flex-1 min-w-70 bg-primary p-6 rounded-3xl shadow-xl flex items-center gap-5 relative overflow-hidden group">
+               <div className="absolute top-0 right-0 w-24 h-24 bg-white/5 rounded-full -mr-12 -mt-12 group-hover:scale-150 transition-transform duration-700" />
+              <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center">
+                <Rocket className="w-6 h-6 text-gold-light" />
+              </div>
+              <div className="relative z-10">
+                <p className="text-[10px] font-black text-white/50 uppercase tracking-widest mb-1">Resume Study</p>
+                <h3 className="text-lg font-bold text-white leading-tight">Video: Risk Logic</h3>
+              </div>
+            </div>
+            {/* New Current Goal Widget */}
+            <div className="flex-1 min-w-70 bg-white p-6 rounded-3xl border border-silver-200 shadow-sm flex items-center gap-5">
+              <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center">
+                <BookOpen className="w-6 h-6 text-primary" />
+              </div>
+              <div>
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Current Goal</p>
+                <h3 className="text-lg font-bold text-primary leading-tight">Complete Module 1: Business Foundations</h3>
+                <p className="text-[10px] text-primary font-bold mt-1 uppercase tracking-tight">Due: Next Friday</p>
+              </div>
+            </div>
           </div>
-        </div>
+
+          {/* Premium Weekly Strategy Widget */}
+          <div className="bg-primary rounded-[2.5rem] p-10 mb-10 relative overflow-hidden shadow-2xl group">
+             <div className="absolute top-0 right-0 w-96 h-96 bg-gold/10 rounded-full blur-3xl -mr-48 -mt-48 transition-transform group-hover:scale-110 duration-1000" />
+             <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                   <h3 className="text-sm font-black text-gold uppercase tracking-[0.2em] mb-4 flex items-center gap-2">
+                     <Target className="w-4 h-4" />
+                     Strategy of the Week
+                   </h3>
+                   <h2 className="text-4xl font-black text-white leading-tight mb-6">
+                     The &quot;Zero-Risk&quot; <br /> Validation Loop.
+                   </h2>
+                   <p className="text-white/60 font-medium leading-relaxed mb-8 max-w-sm">
+                     Learn how to secure your first client using nothing but a simple conversation and a napkin sketch.
+                   </p>
+                   <button className="bg-gold text-white px-8 py-3.5 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-white hover:text-primary transition-all shadow-xl shadow-gold/20">
+                     Watch Deep Dive
+                   </button>
+                </div>
+                <div className="bg-white/5 rounded-3xl p-8 border border-white/10 backdrop-blur-sm">
+                   <div className="space-y-6">
+                      <div className="flex items-center justify-between pb-6 border-b border-white/10">
+                         <span className="text-xs font-black text-white/40 uppercase tracking-widest">Enrollment Status</span>
+                         <span className="px-3 py-1 bg-green-500/20 text-green-400 text-[10px] font-black rounded-full border border-green-500/30">Active</span>
+                      </div>
+                      <div className="space-y-4">
+                         {[
+                           { label: 'Market Interest', value: 'High', color: 'text-gold' },
+                           { label: 'Tech Required', value: 'Low', color: 'text-white' },
+                           { label: 'Time Investment', value: '4 hrs/wk', color: 'text-white' }
+                         ].map((stat) => (
+                           <div key={stat.label} className="flex justify-between items-center text-sm font-bold">
+                              <span className="text-white/40">{stat.label}</span>
+                              <span className={stat.color}>{stat.value}</span>
+                           </div>
+                         ))}
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+
+          <div className="mb-10 flex items-center justify-between">
+            <h2 className="text-3xl font-black text-primary tracking-tight flex items-center gap-3">
+              <BookOpen className="w-8 h-8 text-gold" />
+              Your Blueprint
+            </h2>
+            <div className="text-[10px] font-black tracking-widest uppercase text-slate-400 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
+              Active Learning Session
+            </div>
+          </div>
+
+          <CourseGrid courses={courses} />
+
+          {/* Gold Footer */}
+          <footer className="mt-20 pt-10 border-t border-silver-200 flex flex-col md:flex-row justify-between items-center gap-6 opacity-60 italic">
+            <p className="text-sm text-slate-500">© 2024 Silver Startup Gold Edition. Built for the next classic business.</p>
+            <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-primary">
+              <a href="#" className="hover:text-gold transition-colors">Privacy</a>
+              <a href="#" className="hover:text-gold transition-colors">Terms</a>
+              <a href="#" className="hover:text-gold transition-colors">Community Guidelines</a>
+            </div>
+          </footer>
+        </main>
       </div>
-
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-6 py-12 -mt-8 relative z-20">
-        <div className="mb-10 flex items-center justify-between">
-          <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
-            <BookOpen className="w-6 h-6" />
-            Enrolled Courses
-          </h2>
-          <div className="text-sm font-medium text-slate-500 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-100">
-            {courses.length} Courses Found
-          </div>
-        </div>
-
-        <CourseGrid courses={courses} />
-      </main>
-
-      {/* Premium Footer */}
-      <footer className="bg-white border-t border-slate-200 mt-20 py-12">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
-          <div className="mb-6 flex items-center gap-2 grayscale opacity-50">
-            <Rocket className="w-5 h-5" />
-            <span className="text-lg font-bold">SilverStartup</span>
-          </div>
-          <p className="text-slate-500 text-sm max-w-md mb-8">
-            Empowering retirees with the tools, knowledge, and community to launch
-            successful service businesses.
-          </p>
-          <div className="text-slate-400 text-xs">
-            © {new Date().getFullYear()} Silver Startup. All rights reserved.
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
+

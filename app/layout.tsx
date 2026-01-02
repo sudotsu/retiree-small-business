@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   description: "Modern business education for retirees. Build your second act with confidence.",
 };
 
+import { AccessibilityProvider } from "@/context/AccessibilityContext";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+        <AccessibilityProvider>
+          {children}
+        </AccessibilityProvider>
       </body>
     </html>
   );

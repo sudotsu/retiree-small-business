@@ -2,15 +2,38 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  /* Premium Palette */
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --primary: #1e3a8a;
-  --primary-light: #2563eb; /* Blue 600 - Passed AA */
-  --silver-100: #f1f5f9;
+  /* Gold Edition Premium Palette */
+  --background: #ffffff;
+  --foreground: #020617; /* Navy Slate 950 */
+  --primary: #0f172a;    /* Deep Navy */
+  --primary-light: #1e293b;
+  --accent-gold: #b45309;  /* Amber 700 - Deep Gold (Passes AA on White) */
+  --accent-gold-light: #f59e0b; /* Amber 500 */
+  --silver-100: #f8fafc;
   --silver-200: #e2e8f0;
-  --track-mastery: #6d28d9; /* Violet 700 - Passed AA */
-  --track-essentials: #0369a1; /* Sky 700 - Passed AA */
+
+  --track-mastery: #4338ca;
+  --track-essentials: #0369a1;
+}
+
+/* Vision Mode: Ultra-High Contrast Senior-First Design */
+.vision-mode {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #000000;
+  --primary-light: #000000;
+  --accent-gold: #78350f; /* Deepest Amber for 7:1 contrast ratio */
+  --silver-100: #ffffff;
+  --silver-200: #000000;
+
+  /* Force a massive base font for vision-impaired users */
+  font-size: 1.25rem; /* 20px base */
+}
+
+.vision-mode .border-silver-200,
+.vision-mode .border-silver-100 {
+  border-color: #000000 !important;
+  border-width: 2px;
 }
 
 @theme {
@@ -18,6 +41,8 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-light: var(--primary-light);
+  --color-gold: var(--accent-gold);
+  --color-gold-light: var(--accent-gold-light);
   --color-silver-100: var(--silver-100);
   --color-silver-200: var(--silver-200);
   --color-track-mastery: var(--track-mastery);
