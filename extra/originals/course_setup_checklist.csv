@@ -1,0 +1,26 @@
+Task,Status,Assigned To,Due Date,Notes
+Create Parent Course 'Retiree Business Blueprint',Not Started,,,
+"Create Module 0 Lessons (0.1, 0.2)",Not Started,,,
+Create Module 0 Quiz,Not Started,,,"5 questions, 15 mins"
+Upload Module 0 Videos to Vimeo,Not Started,,,"2 videos, ~30 mins total"
+Create Module 1 Lessons (1.1-1.5),Not Started,,,
+Create Module 1 Quiz,Not Started,,,"8 questions, 30 mins"
+Upload Module 1 Videos to Vimeo,Not Started,,,5 videos
+Repeat for Modules 2-8,Not Started,,,
+Create Essentials Track Course View (using prerequisites),Not Started,,,Hide non-essential content
+Upload all Worksheets as Downloadables,Not Started,,,45 total worksheets
+Set up Video Timer (60 min per lesson),Not Started,,,LearnDash setting
+Configure Pass Percentage (70%),Not Started,,,Module quizzes
+Enable Certificates,Not Started,,,Design template
+Set up Student Progress Emails,Not Started,,,Convertkit integration
+Create Welcome Sequence (5 emails),Not Started,,,Convertkit
+Create Accountability Sequence,Not Started,,,Triggered if no login in 7 days
+Create Graduation Sequence,Not Started,,,Triggered on completion
+Test Full Enrollment Flow,Not Started,,,Stripe payment → course access → email
+"Create Sales Pages (Pricing, About, Course, FAQ)",Not Started,,,Elementor builder
+Set up Yoast SEO for all pages,Not Started,,,"Meta descriptions, keywords"
+Create 2 Blog Posts,Not Started,,,SEO-optimized content
+User Testing with 3-5 Beta Users,Not Started,,,
+Fix Bugs from Beta Feedback,Not Started,,,
+Domain Nameserver Switch,Not Started,,,Day course goes live
+Monitor Launch Day,Not Started,,,"Check for issues, respond to support"

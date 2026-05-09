@@ -1,0 +1,25 @@
+SEO Element,Implementation,Priority,Notes
+Title Tags,Unique for each page with primary keyword,Critical,"Max 60 characters, front-load keywords"
+Meta Descriptions,"Compelling, keyword-rich descriptions",Critical,"155-160 characters, include CTA"
+Header Hierarchy,Proper H1-H6 structure,Critical,"One H1 per page, logical H2-H3 structure"
+URL Structure,"Clean, descriptive URLs",High,"/course-1-starting-business, /pricing"
+Alt Text,Descriptive alt text for all images,High,Include relevant keywords naturally
+Schema Markup,Course schema for both courses,High,Use CourseSchema.org structured data
+Mobile Optimization,Fully responsive design,Critical,"Mobile-first approach, test all devices"
+Page Speed,Load time under 3 seconds,Critical,"Optimize images, minimize scripts"
+Internal Linking,Link related pages together,Medium,"Course pages link to pricing, about"
+Content Quality,"Original, valuable content",Critical,"Address user intent, answer questions"
+XML Sitemap,Submit sitemap to search engines,High,Update when adding new pages
+SSL Certificate,HTTPS enabled,Critical,Required for trust and SEO
+Breadcrumbs,Navigation breadcrumbs,Medium,Helps users and search engines
+Social Meta Tags,Open Graph and Twitter cards,Medium,For social media sharing
+Canonical URLs,Prevent duplicate content,High,Specify preferred URL version
+Image Optimization,"Compress images, use WebP",High,Balance quality and file size
+Local SEO,Add location if relevant,Low,Include city/state if targeting local
+Video SEO,Video transcripts and descriptions,Medium,For course preview videos
+Blog Content,Regular content updates,High,Resources page with helpful articles
+Keyword Density,Natural keyword usage,Medium,"2-3% density, avoid stuffing"
+Outbound Links,Link to authoritative sources,Low,Adds credibility to content
+404 Error Page,"Custom, helpful 404 page",Low,Guide users back to main pages
+Robots.txt,Proper crawling instructions,Medium,Allow important pages
+Analytics Setup,Google Analytics/Search Console,Critical,Track performance and user behavior
